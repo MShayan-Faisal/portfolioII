@@ -14,6 +14,7 @@ It serves as a digital resume that helps you connect with potential employers, c
 Every section of the site is built to make navigation easy and the overall presentation visually appealing.
 
 This version includes upgraded UI components, optimized performance, and consistent design principles — ensuring that your portfolio looks and feels professional across all screen sizes.
+<img width="1518" height="854" alt="Screenshot 2026-04-07 120852" src="https://github.com/user-attachments/assets/db146d1b-e812-4665-af45-cd33e7a2d9d0" />
 
 🧰 Technologies Used
 
@@ -109,5 +110,5 @@ Portfolio II represents the next step in your personal web journey — a clean, 
 It’s not just a static page but a reflection of your growth, creativity, and technical skill.
 
 Visitors can explore your story, skills, and achievements — all in
-<img width="1518" height="854" alt="Screenshot 2026-04-07 120852" src="https://github.com/user-attachments/assets/db146d1b-e812-4665-af45-cd33e7a2d9d0" />
+
  one smooth and visually engaging experience.
