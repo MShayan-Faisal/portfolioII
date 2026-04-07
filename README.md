@@ -1,6 +1,6 @@
 🌐 Portfolio II
 
-The Portfolio II project is a modern and fully responsive personal portfolio website built using HTML, CSS, and JavaScript.
+The Portfolio II project is a modern and fully responsive personal portfolio website built using HTML, CSS.
 It is designed to represent your professional identity, showcase your skills, highlight your projects, and give visitors an engaging experience of who you are as a developer.
 
 This second version of your portfolio focuses on better design aesthetics, improved responsiveness, smoother animations, and a more structured layout compared to the first version.
@@ -97,15 +97,6 @@ Add animations triggered by scroll or mouse movement
 
 Optimize for better performance and accessibility
 
-📬 Contact
-
-If you'd like to connect or collaborate, feel free to reach out:
-
-Email: shayanrajpoot520@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/m-shayan-faisal/
-
-GitHub: https://github.com/shayan520898
 
 📝 License
 
@@ -117,4 +108,6 @@ You can use, modify, and share it freely with proper credit.
 Portfolio II represents the next step in your personal web journey — a clean, professional, and interactive way to showcase your identity as a developer.
 It’s not just a static page but a reflection of your growth, creativity, and technical skill.
 
-Visitors can explore your story, skills, and achievements — all in one smooth and visually engaging experience.
+Visitors can explore your story, skills, and achievements — all in
+<img width="1518" height="854" alt="Screenshot 2026-04-07 120852" src="https://github.com/user-attachments/assets/db146d1b-e812-4665-af45-cd33e7a2d9d0" />
+ one smooth and visually engaging experience.
