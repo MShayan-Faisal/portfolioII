@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Development In Progress</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body{
+        min-height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:20px;
+        overflow:hidden;
+        background: linear-gradient(
+            135deg,
+            #87CEEB,
+            #A7D8FF,
+            #CFEFFF,
+            #E6F7FF
+        );
+        position:relative;
+    }
+
+    /* Floating circles */
+    body::before,
+    body::after{
+        content:"";
+        position:absolute;
+        border-radius:50%;
+        filter:blur(50px);
+        opacity:0.5;
+        z-index:0;
+    }
+
+    body::before{
+        width:350px;
+        height:350px;
+        background:#00BFFF;
+        top:-100px;
+        left:-100px;
+    }
+
+    body::after{
+        width:300px;
+        height:300px;
+        background:#FFD700;
+        bottom:-80px;
+        right:-80px;
+    }
+
+    .container{
+        position:relative;
+        z-index:1;
+        width:100%;
+        max-width:700px;
+        text-align:center;
+        background:rgba(255,255,255,0.2);
+        backdrop-filter:blur(15px);
+        -webkit-backdrop-filter:blur(15px);
+        border:1px solid rgba(255,255,255,0.3);
+        border-radius:30px;
+        padding:50px 35px;
+        box-shadow:
+            0 15px 35px rgba(0,0,0,0.1),
+            0 5px 15px rgba(255,255,255,0.3);
+        animation:fadeIn 1s ease;
+    }
+
+    .emoji{
+        font-size:4rem;
+        margin-bottom:15px;
+        animation:float 3s ease-in-out infinite;
+    }
+
+    h1{
+        color:#0A4D8C;
+        font-size:clamp(2rem, 5vw, 3.5rem);
+        margin-bottom:10px;
+    }
+
+    h2{
+        color:#145DA0;
+        font-size:clamp(1.1rem, 3vw, 1.8rem);
+        margin-bottom:12px;
+        font-weight:600;
+    }
+
+    .message{
+        color:#2E5984;
+        font-size:clamp(1rem, 2vw, 1.2rem);
+        line-height:1.8;
+        margin-top:20px;
+    }
+
+    .progress-wrapper{
+        margin:30px auto;
+    }
+
+    .progress-text{
+        margin-bottom:10px;
+        color:#0A4D8C;
+        font-weight:600;
+    }
+
+    .progress-bar{
+        width:100%;
+        height:18px;
+        background:rgba(255,255,255,0.5);
+        border-radius:50px;
+        overflow:hidden;
+    }
+
+    .progress{
+        height:100%;
+        width:75%;
+        background:linear-gradient(
+            90deg,
+            #00BFFF,
+            #1E90FF,
+            #87CEFA
+        );
+        border-radius:50px;
+        animation:loading 3s ease-in-out infinite;
+    }
+
+    .thanks{
+        margin-top:25px;
+        font-size:1.3rem;
+        font-weight:bold;
+        color:#0A4D8C;
+        letter-spacing:2px;
+    }
+
+    @keyframes fadeIn{
+        from{
+            opacity:0;
+            transform:translateY(30px);
+        }
+        to{
+            opacity:1;
+            transform:translateY(0);
+        }
+    }
+
+    @keyframes float{
+        0%,100%{
+            transform:translateY(0);
+        }
+        50%{
+            transform:translateY(-10px);
+        }
+    }
+
+    @keyframes loading{
+        0%{
+            width:65%;
+        }
+        50%{
+            width:85%;
+        }
+        100%{
+            width:65%;
+        }
+    }
+
+    /* Mobile */
+    @media (max-width: 600px){
+        .container{
+            padding:35px 20px;
+        }
+
+        .emoji{
+            font-size:3rem;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="emoji">🎮☁️</div>
+
+    <h1>Game Development</h1>
+
+    <h2>Hi, I'm M Shayan Faisal</h2>
+
+    <h2>🚧 Sorry for the Inconvenience</h2>
+
+    <p class="message">
+        Our WebGL game build is currently under development.
+        We're working hard to deliver an amazing gaming experience.
+        Stay tuned — you'll be able to play very soon!
+    </p>
+
+    <div class="progress-wrapper">
+        <div class="progress-text">Development Progress</div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+
+    <div class="thanks">
+        THANK YOU FOR YOUR PATIENCE ❤️
+    </div>
+
+</div>
+
+</body>
+</html>
